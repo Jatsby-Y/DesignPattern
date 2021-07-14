@@ -1,4 +1,4 @@
-package factory;
+package factory.demo;
 
 public class Peach implements Fruit {
     @Override

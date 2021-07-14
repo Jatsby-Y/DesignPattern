@@ -1,4 +1,4 @@
-package singleton;
+package singleton.demo;
 
 public class HungrySingleton {
     private static HungrySingleton instance = new HungrySingleton();

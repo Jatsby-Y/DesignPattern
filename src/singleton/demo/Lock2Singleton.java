@@ -1,4 +1,4 @@
-package singleton;
+package singleton.demo;
 
 public class Lock2Singleton {
     private static volatile Lock2Singleton instance;

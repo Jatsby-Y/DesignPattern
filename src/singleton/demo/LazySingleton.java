@@ -1,4 +1,4 @@
-package singleton;
+package singleton.demo;
 
 public class LazySingleton {
     private static LazySingleton instance;

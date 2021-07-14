@@ -1,4 +1,4 @@
-package factory;
+package factory.demo;
 
 public class FactoryPatternDemo {
     public static void main(String[] args) {
