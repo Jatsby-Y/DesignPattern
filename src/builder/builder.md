@@ -13,13 +13,14 @@
 2. 若内部变化复杂，会有很多建造者类，难以维护。
 ## 实现方式
 实现步骤：  
-1 定义需要构建的产品类
+1 定义需要构建的产品类。
 ```java
 public class Computer {
     private String cpu;
     private String memory;
     private String disk;
     // 以下省略属性的getter和setter方法
+}
 ```
 2 定义抽象接口，以描述产品的内部构建过程，包括装配细节和最终构建方法。
 ```java
@@ -66,7 +67,7 @@ public class ComputerConcreteBuilder implements ComputerBuilder {
     }
 }
 ```
-4 编写Demo,构建具体产品
+4 编写Demo,构建具体产品。
 ```java
 public class BuilderPatternDemo {
     public static void main(String[] args) {

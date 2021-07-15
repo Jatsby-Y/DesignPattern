@@ -13,14 +13,13 @@
 一般用于构建复杂对象。
 ## 实现方式
 实现步骤：  
-
-1 定义创建对象的接口
+1 定义创建对象的接口。
 ```java
 public interface Fruit {
     public void buy();
 }
 ```
-2 构建具体实现类
+2 构建具体实现类。
 ```java
 public class Apple implements Fruit {
     @Override
@@ -45,7 +44,7 @@ public class Peach implements Fruit {
     }
 }
 ```
-3 定义工厂类
+3 定义工厂类。
 ```java
 public class FruitFactory {
 
