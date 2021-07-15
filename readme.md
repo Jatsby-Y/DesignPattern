@@ -12,7 +12,7 @@
 创建型模式主要提供了多种优雅创建对象的方法。
 - [单例模式（Singleton Pattern）](https://github.com/Jatsby-Y/DesignPattern/tree/master/src/singleton)
 - [工厂模式（Factory Pattern）](https://github.com/Jatsby-Y/DesignPattern/tree/master/src/factory)
-- 建造者模式（Builder Pattern）
+- [建造者模式（Builder Pattern）](https://github.com/Jatsby-Y/DesignPattern/tree/master/src/builder)
 - 原型模式（Prototype Pattern）
 - 抽象工厂模式（Abstract Factory Pattern）
 #### 结构型模式
@@ -28,7 +28,7 @@
 #### 行为型模式
 行为型模式关注对象的行为，主要是通过类与类之间的不同的通信方式
 来实现不同的行为。
-- 策略模式（Strategy Pattern）
+- [策略模式（Strategy Pattern）](https://github.com/Jatsby-Y/DesignPattern/tree/master/src/strategy)
 - 观察者模式（Observer Pattern）
 - 责任链模式（Chain of Responsibility Pattern）
 - 模板模式（Template Pattern）
